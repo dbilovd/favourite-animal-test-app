@@ -1,6 +1,10 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Favourite Animals App
 
-## Getting Started
+### Demo
+https://www.loom.com/share/6eeb765668a64024b5cf336bc34ae54e
+
+
+### Running
 
 First, run the development server:
 
@@ -16,21 +20,32 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Technologies Used
 
-## Learn More
+* React (Next.JS)
+* TailwindCSS
+* Fetch API
+* Localstorage
 
-To learn more about Next.js, take a look at the following resources:
+Because of time-constraint I didn't add any test
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Process
 
-## Deploy on Vercel
+![alt text](notion-notes.png "Notion notes")
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The first thing I did was to go through the document and list all the features that must be covered by the solution.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+After this, I setup my environment. Installed and configured all the tools I needed.
+
+After this, I implemented a bare version of these functionalities inside the page `page.js` file.
+
+I then refactored some of these functionalities into smaller components
+
+My final task was working on the design and cleaning up the appearance.
+
+
+### There are a few bugs, including a user can both like and dislike a character. But with more time, I would have spent some of it writing tests for the app.
+
+
